@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Abel", sans-serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  &-table--box {
+    width: 600px;
+  }
+  &-table {
+    margin-top: 50px;
+  }
+
+  &-button {
+    border: 2px solid rgb(0, 153, 153);
+    padding: 4px;
+  }
+
+  &-button:hover {
+    background-color: rgb(0, 153, 153);
+    color: white;
+  }
+  &-table--input {
+    outline: none;
+    padding: 4px;
+    width: 100%;
+  }
+}
+
+h2 {
+  text-align: center;
+}
